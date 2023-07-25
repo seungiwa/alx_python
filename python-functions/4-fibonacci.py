@@ -3,11 +3,13 @@ def fibonacci_sequence(n):
     fib_sequence = []
 
     # First two numbers of the Fibonacci sequence
-    x, y = 0, 1
+    a, b = 0, 1
 
     # Generate the Fibonacci sequence up to the nth number
-    for i in range(n):
+    for _ in range(n):
         # Append the current number (a) to the list
-        fib_sequence.append(x)
+        fib_sequence.append(a)
         # Calculate the next Fibonacci number by adding the previous two numbers
-        x, y = y, x + y
+        a, b = b, a + b
+
+    return fib_sequence
