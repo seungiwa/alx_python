@@ -8,6 +8,6 @@ def fibonacci_sequence(n):
     # Generate the Fibonacci sequence up to the nth number
     for i in range(n):
         # Append the current number (a) to the list
-        fib_sequence.append(a)
+        fib_sequence.append(x)
         # Calculate the next Fibonacci number by adding the previous two numbers
         x, y = y, x + y
