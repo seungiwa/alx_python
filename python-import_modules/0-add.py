@@ -1,11 +1,11 @@
-def add(a, b):
-    '''My addition function
+# import add_0 function
+import add_0
 
-    Args:
-        a: first integer
-        b: second integer
+# calling the add function
+add_0.add(1, 2)
 
-    Returns:
-        The return value. a + b
-    '''
-    return(a + b)
+# Execute this program if it is called here
+if __name__ == "__main__":
+    a = 1
+    b = 2
+    print('{} + {} = {}'.format(a, b, a+b)) 
